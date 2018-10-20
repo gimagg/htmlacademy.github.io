@@ -1,11 +1,11 @@
-body {color:#4B0082; background-image: url(123.png);
-  font-family: COMIC SANS MS}
+body {color:#4B0082; background-image: url(321.jpg);
+  font-family:'COMIC SANS MS'}
 
 .menu {background-image: url(12345.jpg);width: 99%}
 
 .H1 {text-align:center; font-stretch: ultra-condensed;
   font-variant: small-caps; font-size: 30pt;
-   border: 10px ridge #00FFFF; height: 12%}
+   border-bottom: 4px ridge #8B4513; border-radius: 10px 20px;}
 
 th {width: 650px; border-left: 3px ridge #00FFFF ;
    border-right: 3px ridge #00FFFF; height: 15%}
@@ -13,12 +13,14 @@ th {width: 650px; border-left: 3px ridge #00FFFF ;
 p {height: 17%; border-top: 3px ridge #00FFFF ;
   border-bottom: 3px ridge #00FFFF }
 
-.but {width: 100%; background-color: #4B0082; color: #FFDEAD;
-  font-family: COMIC SANS MS; height: 11%;
-font-size: 40px;border: 2px ridge #00FFFF }
+.but {width: 20%; background-color: #DEB887; color: #4B0082;
+  font-family: 'COMIC SANS MS'; height: 11%; float: right;
+font-size: 40px;border: 3px ridge #4B0082; border-radius: 10px 20px;}
 
-.man {height: 88%;text-align:center; font-stretch: ultra-condensed;
-  font-variant: small-caps; font-size:45; border: 10px ridge #00FFFF}
+.man {border-radius: 10px 20px; margin: auto;
+  width:65%;height: 100%;text-align:center; font-stretch: ultra-condensed;
+  font-variant: small-caps; font-size:45; border-bottom: 4px ridge #8B4513;
+border-top: 4px ridge #8B4513;background-image: url(123.png)}
 
 .gn {text-align: center; padding-top: 2%; font-size: 100pt}
 
@@ -33,7 +35,7 @@ font-size: 40px;border: 2px ridge #00FFFF }
 
 .class {padding-left: 70pt;font-size: 40pt; text-align: left;}
 
-.fon {width: 99%; height: 75%}
+.fon {width: 99%; height: 73%}
 
 .tr {height: 30%}
 
