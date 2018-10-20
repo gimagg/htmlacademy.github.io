@@ -1,17 +1,40 @@
-body {color:#4B0082; background-image: url(123.png); font-family: COMIC SANS MS;}
-.menu {background-image: url(1680.jpg)}
+body {color:#4B0082; background-image: url(123.png);
+  font-family: COMIC SANS MS}
+
+.menu {background-image: url(12345.jpg);width: 99%}
+
 .H1 {text-align:center; font-stretch: ultra-condensed;
-  font-variant: small-caps; font-size:45; border: 10px ridge #00FFFF }
-th {width: 650px; border-left: 3px ridge #00FFFF ; border-right: 3px ridge #00FFFF; height: 200px}
-p {height: 17%; border-top: 3px ridge #00FFFF ;border-bottom: 3px ridge #00FFFF }
-.but {width: 100%; background-color: #4B0082; color: #FFDEAD;font-family: COMIC SANS MS; height: 7%;
-font-size: 45px;border: 2px ridge #00FFFF }
-.man {height: 76%;text-align:center; font-stretch: ultra-condensed;
+  font-variant: small-caps; font-size: 30pt;
+   border: 10px ridge #00FFFF; height: 12%}
+
+th {width: 650px; border-left: 3px ridge #00FFFF ;
+   border-right: 3px ridge #00FFFF; height: 15%}
+
+p {height: 17%; border-top: 3px ridge #00FFFF ;
+  border-bottom: 3px ridge #00FFFF }
+
+.but {width: 100%; background-color: #4B0082; color: #FFDEAD;
+  font-family: COMIC SANS MS; height: 11%;
+font-size: 40px;border: 2px ridge #00FFFF }
+
+.man {height: 88%;text-align:center; font-stretch: ultra-condensed;
   font-variant: small-caps; font-size:45; border: 10px ridge #00FFFF}
-.gn {text-align: center; padding-top: 100px; font-size: 100pt}
+
+.gn {text-align: center; padding-top: 2%; font-size: 100pt}
+
 .menub {width: 15%; height: 5%}
-.play {padding-top: 150px; text-align: center;}
-.options {padding-top: 170px; text-align: center;}
-.cat {height: 79%;text-align:center; font-stretch: ultra-condensed;
+
+.play {padding-top: 1%; text-align: center;}
+
+.options {padding-top: 10%; text-align: center;}
+
+.cat {height: 94%;text-align:center; font-stretch: ultra-condensed;
   font-variant: small-caps; border: 10px ridge #00FFFF}
-.class {padding-left: 70pt;font-size: 75pt; text-align: left;}
+
+.class {padding-left: 70pt;font-size: 40pt; text-align: left;}
+
+.fon {width: 99%; height: 75%}
+
+.tr {height: 30%}
+
+.flight {height: 17%}
