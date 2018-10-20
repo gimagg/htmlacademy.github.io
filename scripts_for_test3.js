@@ -67,4 +67,8 @@ function plane() {
          $('#re3_cost').text(helicopter3.cost);
          $('#re3_capacity').text(helicopter3.capacity);
          $('#re3_time').text(helicopter3.time);
+
 }
+  function animation() {
+    $('#text_box').show("slow");
+  }
