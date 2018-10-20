@@ -48,20 +48,20 @@ function plane() {
 
   }
   function helicopter() {
-    var helicopter = '{"name": "p", "time": "5", "capacity" : "7", "cost":"500"}';
+    var helicopter = '{"name": "руд", "time": "5", "capacity" : "7", "cost":"500"}';
      helicopter = JSON.parse(helicopter);
      $('#re1_tupe').text(helicopter.name);
      $('#re1_cost').text(helicopter.cost);
      $('#re1_capacity').text(helicopter.capacity);
      $('#re1_time').text(helicopter.time);
 
-     var helicopter2 = '{"name": "p", "time": "5", "capacity" : "7", "cost":"500"}';
-      helicopter = JSON.parse(helicopter2);
+     var helicopter2 = '{"name": "руд", "time": "5", "capacity" : "7", "cost":"500"}';
+      helicopter2 = JSON.parse(helicopter2);
       $('#re2_tupe').text(helicopter2.name);
       $('#re2_cost').text(helicopter2.cost);
       $('#re2_capacity').text(helicopter2.capacity);
       $('#re2_time').text(helicopter2.time);
-      var helicopter3 = '{"name": "p", "time": "5", "capacity" : "7", "cost":"500"}';
+      var helicopter3 = '{"name": "руд", "time": "5", "capacity" : "7000", "cost":"500"}';
          helicopter3 = JSON.parse(helicopter3);
          $('#re3_tupe').text(helicopter3.name);
          $('#re3_cost').text(helicopter3.cost);
