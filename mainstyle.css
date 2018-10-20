@@ -59,6 +59,14 @@ p.speech:after {
 
 .od {height: 72%}
 
+.od2 {height:72.7%;}
+
+.od3 {height:22.1% }
+
+.od4 {height: 72.7%}
+
+.od5 {height: 67%}
+
 .ds {text-align: right;}
 
 .sa {text-decoration: none; color: black; cursor:default;}
@@ -93,5 +101,7 @@ body {
 .sb {width: 100%}
 
 .shop {text-align: center;letter-spacing: 10pt; font-size: 30pt}
+
+.div {text-align: left;}
 
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
