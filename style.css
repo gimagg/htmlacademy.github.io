@@ -12,10 +12,11 @@ th {width: 650px; border-left: 4px ridge #8B4513 ;
 
 .p {height: 17%; border-top: 3px ridge #00FFFF ;
   border-bottom: 3px ridge #00FFFF }
-
+.div {text-align: center;}
   .button{text-decoration:none; text-align:center;
-    float: right;
-   padding:10px 50px;
+    letter-spacing:15pt ;
+    text-align: center;
+   padding:10px 100px;
    border:ridge 2px #000000;
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
@@ -39,7 +40,7 @@ th {width: 650px; border-left: 4px ridge #8B4513 ;
    -o-transition:  color 0s linear;
    transition:  color 0s linear;}
    .button:hover{
-   padding:10px 50px;
+   padding:10px 100px;
    border:ridge 2px #8B4513;
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
@@ -60,8 +61,8 @@ th {width: 650px; border-left: 4px ridge #8B4513 ;
 }
 
 .man {border-radius: 10px 20px; margin: auto;
-  width:65%;height: 100%;text-align:center; font-stretch: ultra-condensed;
-  font-variant: small-caps; font-size:45; border-bottom: 4px ridge #8B4513;
+  width:65%;height: 105%;text-align:center; font-stretch: ultra-condensed;
+  font-variant: small-caps; font-size:30pt; border-bottom: 4px ridge #8B4513;
 border-top: 4px ridge #8B4513;background-image: url(1234.jpg)}
 
 .gn {text-align: center; padding-top: 2%; font-size: 100pt}
@@ -83,7 +84,7 @@ border-top: 4px ridge #8B4513;background-image: url(1234.jpg)}
 
 .tr {height: 30%; color: #FF8614}
 
-.flight {border-radius: 10px 20px; margin: auto; border-top: 4px ridge #8B4513;
+.flight {width: 70%;border-radius: 10px 20px; margin: auto; border-top: 4px ridge #8B4513;
   border-bottom: 4px ridge #8B4513; background-image: url(1234.jpg);height: 26%;color:black}
 
 .nman {border-bottom: 4px ridge #8B4513; width: 50%;
