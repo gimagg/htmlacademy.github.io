@@ -10,4 +10,46 @@
 
 .ftplay {text-align: center;}
 
+p.speech {
+  color: #000000;
+  margin-left: auto;
+	position: relative;
+	width: 80%;
+	height: 15.5%;
+	text-align: left;
+	line-height: 100px;
+	background-color: #fff;
+	border: 8px solid #666;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+}
+p.speech:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 30px;
+	top: 100px;
+	border: 25px solid;
+	border-color: #666 transparent transparent #666;
+}
+p.speech:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 38px;
+	top: 100px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+.od {height: 60%}
+
+.ds {text-align: right;}
+
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
