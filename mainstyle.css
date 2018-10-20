@@ -1,3 +1,5 @@
+.fa {text-decoration: none; color: white; cursor:default; }
+
 .fh1 {text-align: center; font-size: 50pt}
 
 .fo {height: 19%}
@@ -12,8 +14,9 @@
 
 .splay {width: 10%; height: 20%}
 
-a.fplay:hover {
-    background: url(playhover.png);
+.fplay:hover {
+  width: 10%; height: 20%;
+    background-image: url(playhover.png);
    }
 
 p.speech {
@@ -21,7 +24,7 @@ p.speech {
   margin-left: auto;
 	position: relative;
 	width: 80%;
-	height: 15.5%;
+	height: 15,5%;
 	text-align: left;
 	line-height: 100px;
 	background-color: #fff;
@@ -54,8 +57,10 @@ p.speech:after {
 	border-color: #fff transparent transparent #fff;
 }
 
-.od {height: 56%}
+.od {height: 74%}
 
 .ds {text-align: right;}
+
+.sa {text-decoration: none; color: black; cursor:default;}
 
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
