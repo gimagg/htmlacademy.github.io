@@ -10,6 +10,12 @@
 
 .ftplay {text-align: center;}
 
+.splay {width: 10%; height: 20%}
+
+a.fplay:hover {
+    background: url(playhover.png);
+   }
+
 p.speech {
   color: #000000;
   margin-left: auto;
@@ -48,7 +54,7 @@ p.speech:after {
 	border-color: #fff transparent transparent #fff;
 }
 
-.od {height: 60%}
+.od {height: 56%}
 
 .ds {text-align: right;}
 
