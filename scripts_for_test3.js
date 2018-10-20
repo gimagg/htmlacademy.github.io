@@ -1,6 +1,6 @@
 function plane() {
-  var b = '{"name": "plane", "time": "5", "cop" : "7"}';
+  var b = '{"name": "plane", "time": "5", "cop" : "7", "coins":"500"}';
    b = JSON.parse(b);
-   //alert(b.name);
-   $('#re1').text("Tupe" b.name);
+   $('#re1_tupe').text(b.name);
+   $('#re1_stoi').text(b.coins);
  }
