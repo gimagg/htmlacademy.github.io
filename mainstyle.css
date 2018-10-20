@@ -63,4 +63,31 @@ p.speech:after {
 
 .sa {text-decoration: none; color: black; cursor:default;}
 
+.fon {
+  background-color : #000000;
+}
+body {
+  color:#FFFFFF;
+  font-family:'COMIC SANS MS';
+  font-size: 20pt;
+}
+.hh {
+  border: 4px double #fff; /* Параметры границы */
+  background: #fff; /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  border-radius: 8px
+}
+#gg {
+  text-align: right;
+  width:32%;
+  height:100%;
+}
+.mm {
+  height: 37% ;
+}
+
+.flight{height: 3%}
+
+.vim {text-align: right;}
+
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
