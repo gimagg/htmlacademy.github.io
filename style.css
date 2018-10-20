@@ -40,13 +40,13 @@ th {width: 650px; border-left: 4px ridge #8B4513 ;
    transition:  color 0s linear;}
    .button:hover{
    padding:10px 50px;
-   border:ridge 2px #F0E68C;
+   border:ridge 2px #8B4513;
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius: 4px;
    font:20px "COMIC SANS MS" serif;
    font-weight:bold;
-   color:#F0E68C;
+   color:#8B4513;
    background-color:#e4ebed;
    background-image: -moz-linear-gradient(top, #e4ebed 0%, #657073 100%);
    background-image: -webkit-linear-gradient(top, #e4ebed 0%, #657073 100%);
@@ -82,7 +82,7 @@ border-top: 4px ridge #8B4513;background-image: url(1234.jpg)}
 .tr {height: 30%; color: #FF8614}
 
 .flight {border-radius: 10px 20px; margin: auto; border-top: 4px ridge #8B4513;
-  background-image: url(polosa.jpg);height: 27%;color:#FF8614}
+  border-bottom: 4px ridge #8B4513; background-image: url(1234.jpg);height: 26%;color:black}
 
 .nman {border-bottom: 4px ridge #8B4513; width: 50%;
 margin: auto;}
@@ -91,3 +91,6 @@ margin: auto;}
 
 .gnman {border-radius: 10px 20px; margin: auto; border-top: 4px ridge #8B4513;
 text-align:center;background-image: url(polosa.jpg);}
+
+.money {border-radius: 10px 20px;font-size: 25pt; background-color: green;
+  border-left: 4px ridge #8B4513;border-right: 4px ridge #8B4513;}
