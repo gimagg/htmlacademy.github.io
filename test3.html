@@ -4,24 +4,24 @@
    <script src="scripts_for_test3.js"></script>
   <link rel="stylesheet" href="style.css">
  </head>
- <body class="fon">
-   <div>
-     <div class="gnman"> <img src="https://fontmeme.com/permalink/181020/fee26dcfeb2a809968deb498a730ce4b.png"
-        alt="world-of-warcraft-font" border="0">
-     </a> </div>
-<table class="tr">
-  <tr>
-<th onclick="plane()">
-         КАРТИНОЧКА С САМОЛЕТОМ
-</th>
-<th onclick="ship()">
-         КАРТИНОЧКА С ПАРОХОДОМ
-</th>
-<th onclick="helicopter()">
-         КАРТИНОЧКА С ВЕРТОЛЕТОМ
-</th>
-</tr>
-   </table>
+ <body onload="giveP()" class="fon">
+   <div onload="giveP()">
+
+   </div>
+
+<div id="jj" class="hh">
+  <div class="mm">
+<span onclick="plane()">
+        <img id="gg" src="Самолет.jpg">
+</span>
+<span onclick="ship()">
+         <img id="gg" src="Пароход.jpg">
+</span>
+<span onclick="helicopter()">
+         <img id="gg" src="Вертолет.jpg">
+</span>
+</div>
+</div>
    <div>
      <p class="flight" >
        <input type="radio" name="flight"> РЕЙС №1
@@ -62,7 +62,7 @@
    </div>
    <div class="div">
      <span class="money">
-       ГРОШІ : n$
+        <span id="maney"></span> $
      </span>
      <span>
      <a href="test4.html" class="button"/>CONTINUE</a>

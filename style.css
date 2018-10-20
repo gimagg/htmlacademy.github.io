@@ -1,99 +1,22 @@
-body {color:#000000; background-image: url(test.jpg);
-  font-family:'COMIC SANS MS'}
-
-.menu {background-image: url(12345.jpg);width: 99%}
-
-.H1 {text-align:center; font-stretch: ultra-condensed;
-  font-variant: small-caps; font-size: 30pt;
-   border-bottom: 4px ridge #8B4513; border-radius: 10px 20px;color:#FFFF00}
-
-th {width: 650px; border-left: 4px ridge #8B4513 ;
-   border-right: 4px ridge #8B4513; height: 15%;border-radius: 10px 20px;}
-
-.p {height: 17%; border-top: 3px ridge #00FFFF ;
-  border-bottom: 3px ridge #00FFFF }
-.div {text-align: center;}
-  .button{text-decoration:none; text-align:center;
-    letter-spacing:15pt ;
-    text-align: center;
-   padding:10px 100px;
-   border:ridge 2px #000000;
-   -webkit-border-radius:4px;
-   -moz-border-radius:4px;
-   border-radius: 4px;
-   font:20px "COMIC SANS MS" serif;
-   font-weight:bold;
-   color:#000000;
-   background-color:#e4ebed;
-   background-image: -moz-linear-gradient(top, #e4ebed 0%, #657073 100%);
-   background-image: -webkit-linear-gradient(top, #e4ebed 0%, #657073 100%);
-   background-image: -o-linear-gradient(top, #e4ebed 0%, #657073 100%);
-   background-image: -ms-linear-gradient(top, #e4ebed 0% ,#657073 100%);
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#657073', endColorstr='#657073',GradientType=0 );
-   background-image: linear-gradient(top, #e4ebed 0% ,#657073 100%);
-   -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
-   -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
-   box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
-
-     -webkit-transition: color 0s linear;
-   -moz-transition:  color 0s linear;
-   -o-transition:  color 0s linear;
-   transition:  color 0s linear;}
-   .button:hover{
-   padding:10px 100px;
-   border:ridge 2px #8B4513;
-   -webkit-border-radius:4px;
-   -moz-border-radius:4px;
-   border-radius: 4px;
-   font:20px "COMIC SANS MS" serif;
-   font-weight:bold;
-   color:#8B4513;
-   background-color:#e4ebed;
-   background-image: -moz-linear-gradient(top, #e4ebed 0%, #657073 100%);
-   background-image: -webkit-linear-gradient(top, #e4ebed 0%, #657073 100%);
-   background-image: -o-linear-gradient(top, #e4ebed 0%, #657073 100%);
-   background-image: -ms-linear-gradient(top, #e4ebed 0% ,#657073 100%);
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#657073', endColorstr='#657073',GradientType=0 );
-   background-image: linear-gradient(top, #e4ebed 0% ,#657073 100%);
-   -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
-   -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
-   box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+.fon {
+  background-color : #000000;
 }
-
-.man {border-radius: 10px 20px; margin: auto;
-  width:65%;height: 105%;text-align:center; font-stretch: ultra-condensed;
-  font-variant: small-caps; font-size:30pt; border-bottom: 4px ridge #8B4513;
-border-top: 4px ridge #8B4513;background-image: url(1234.jpg)}
-
-.gn {text-align: center; padding-top: 2%; font-size: 100pt}
-
-.menub {width: 15%; height: 5%}
-
-.play {padding-top: 1%; text-align: center;}
-
-.options {padding-top: 10%; text-align: center;}
-
-.cat {height: 112%; text-align:center;
-      border-radius: 10px 20px; margin: auto;
-    width:100%; text-align:center; font-size:15pt; border-bottom: 4px ridge #8B4513;
-  border-top: 4px ridge #8B4513; background-image: url(1234.jpg)}
-
-.class {padding-left: 70pt;font-size: 40pt; text-align: left}
-
-.fon {width: 99%; height: 73%}
-
-.tr {height: 30%; color: #FF8614}
-
-.flight {width: 70%;border-radius: 10px 20px; margin: auto; border-top: 4px ridge #8B4513;
-  border-bottom: 4px ridge #8B4513; background-image: url(1234.jpg);height: 26%;color:black}
-
-.nman {border-bottom: 4px ridge #8B4513; width: 50%;
-margin: auto;}
-
-.tman {color: black; font-size: 15pt}
-
-.gnman {border-radius: 10px 20px; margin: auto; border-top: 4px ridge #8B4513;
-text-align:center;background-image: url(polosa.jpg);}
-
-.money {border-radius: 10px 20px;font-size: 25pt; background-color: green;
-  border-left: 4px ridge #8B4513;border-right: 4px ridge #8B4513;}
+body {
+  color:#FFFFFF;
+  font-family:'COMIC SANS MS';
+  font-size: 20pt;
+}
+.hh {
+  border: 4px double #fff; /* Параметры границы */
+  background: #fff; /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  border-radius: 8px
+}
+#gg {
+  width:250px;
+  height:250px;
+}
+.mm {
+  margin-left: auto;
+  margin-right: auto
+}
