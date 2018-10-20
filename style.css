@@ -7,8 +7,8 @@ body {color:#000000; background-image: url(test.jpg);
   font-variant: small-caps; font-size: 30pt;
    border-bottom: 4px ridge #8B4513; border-radius: 10px 20px;color:#FFFF00}
 
-th {width: 650px; border-left: 3px ridge #00FFFF ;
-   border-right: 3px ridge #00FFFF; height: 15%}
+th {width: 650px; border-left: 4px ridge #8B4513 ;
+   border-right: 4px ridge #8B4513; height: 15%;border-radius: 10px 20px;}
 
 .p {height: 17%; border-top: 3px ridge #00FFFF ;
   border-bottom: 3px ridge #00FFFF }
@@ -79,9 +79,10 @@ border-top: 4px ridge #8B4513;background-image: url(1234.jpg)}
 
 .fon {width: 99%; height: 73%}
 
-.tr {height: 30%}
+.tr {height: 30%; color: #FF8614}
 
-.flight {height: 17%}
+.flight {border-radius: 10px 20px; margin: auto; border-top: 4px ridge #8B4513;
+  background-image: url(polosa.jpg);height: 27%;color:#FF8614}
 
 .nman {border-bottom: 4px ridge #8B4513; width: 50%;
 margin: auto;}
