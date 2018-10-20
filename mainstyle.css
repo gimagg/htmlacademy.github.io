@@ -57,7 +57,7 @@ p.speech:after {
 	border-color: #fff transparent transparent #fff;
 }
 
-.od {height: 74%}
+.od {height: 72%}
 
 .ds {text-align: right;}
 
@@ -83,11 +83,13 @@ body {
   height:100%;
 }
 .mm {
-  height: 37% ;
+  height: 36.5% ;
 }
 
 .flight{height: 3%}
 
 .vim {text-align: right;}
+
+.sb {width: 100%}
 
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
