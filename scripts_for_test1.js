@@ -1,25 +1,44 @@
-var medic=0;
+var  medic=0;
 var mahani=0;
 var ycheni=0;
 var ingener=0;
-function 1_medic()  {
+function a1_medic()  {
   medic++;
-  $('#1_medic').text(medic);
+  $('#medik').text(medic);
 }
-function 2_medic()  {
+function a2_medic()  {
+  if (medic>=1) {
   medic--;
-  if (medic>=0)
-  $('#1_medic').text(medic);
+  $('#medik').text(medic);
 }
-function 1_mahanik() {
 }
-function 2_mahanik() {
+function a1_mahanik() {
+  mahani++;
+  $('#mahanik').text(mahani);
 }
-function 1_ycheni() {
+function a2_mahanik() {
+  if(mahani>=1) {
+    mahani--;
+    $('#mahanik').text(mahani);
 }
-function 2_ycheni() {
 }
-function 1_ingener() {
+function a1_ycheni() {
+  ycheni++;
+  $('#ycheni').text(ycheni);
 }
-function 2_ingener() {
+function a2_ycheni() {
+  if(ycheni>=1) {
+  ycheni--;
+  $('#ycheni').text(ycheni);
+}
+}
+function a1_ingener() {
+  ingener++;
+  $('#ingener').text(ingener);
+}
+function a2_ingener() {
+  if(ingener>=1) {
+    ingener--;
+    $('#ingener').text(ingener);
+  }
 }
