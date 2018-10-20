@@ -20,13 +20,16 @@
    }
 
 p.speech {
+  font-size: 12pt;
+  padding-left: 20px ;
+  padding-right: 1px ;
   color: #000000;
   margin-left: auto;
 	position: relative;
 	width: 80%;
 	height: 15,5%;
 	text-align: left;
-	line-height: 100px;
+	line-height: 50px;
 	background-color: #fff;
 	border: 8px solid #666;
 	-webkit-border-radius: 30px;
@@ -58,6 +61,14 @@ p.speech:after {
 }
 
 .od {height: 72%}
+
+.od2 {height:72.7%;}
+
+.od3 {height:55.1% }
+
+.od4 {height: 72.7%}
+
+.od5 {height: 67%}
 
 .ds {text-align: right;}
 
@@ -93,5 +104,9 @@ body {
 .sb {width: 100%}
 
 .shop {text-align: center;letter-spacing: 10pt; font-size: 30pt}
+
+.div {text-align: left;}
+
+.divh {height:40% ;}
 
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
