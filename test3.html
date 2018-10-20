@@ -1,5 +1,7 @@
 <html>
  <head>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+   <script src="scripts_for_test3.js"></script>
   <link rel="stylesheet" href="style.css">
  </head>
  <body class="fon">
@@ -7,7 +9,7 @@
      <div> <H1 class="H1"> PREPARATION TO EXPEDITION (STEP#3 - CHOOSE A PATH) </H1> </div>
 <table class="tr">
   <tr>
-<th>
+<th onclick="plane()">
          КАРТИНОЧКА С САМОЛЕТОМ
 </th>
 <th>
@@ -19,16 +21,16 @@
 </tr>
    </table>
    <div>
-     <p class="flight"><input type="radio" name="flight"> РЕЙС №1
+     <p class="flight" id="re1"><input type="radio" name="flight"> РЕЙС №1
      "описание (кол-во возможных пассажиров, дата, время, цена)"
 </p>
 <p class="flight">
-  <input type="radio" name="flight">
+  <input type="radio" name="flight" id="re2" >
      РЕЙС №2
      "описание (кол-во возможных пассажиров, дата, время, цена)"
 </p>
 <p class="flight">
-  <input type="radio" name="flight">
+  <input type="radio" name="flight" id="re3">
      РЕЙС №3
      "описание (кол-во возможных пассажиров, дата, время, цена)"
 </p>
