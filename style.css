@@ -1,26 +1,68 @@
-body {color:#4B0082; background-image: url(321.jpg);
+body {color:#000000; background-image: url(test.jpg);
   font-family:'COMIC SANS MS'}
 
 .menu {background-image: url(12345.jpg);width: 99%}
 
 .H1 {text-align:center; font-stretch: ultra-condensed;
   font-variant: small-caps; font-size: 30pt;
-   border-bottom: 4px ridge #8B4513; border-radius: 10px 20px;}
+   border-bottom: 4px ridge #8B4513; border-radius: 10px 20px;color:#FFFF00}
 
 th {width: 650px; border-left: 3px ridge #00FFFF ;
    border-right: 3px ridge #00FFFF; height: 15%}
 
-p {height: 17%; border-top: 3px ridge #00FFFF ;
+.p {height: 17%; border-top: 3px ridge #00FFFF ;
   border-bottom: 3px ridge #00FFFF }
 
-.but {width: 20%; background-color: #DEB887; color: #4B0082;
-  font-family: 'COMIC SANS MS'; height: 11%; float: right;
-font-size: 40px;border: 3px ridge #4B0082; border-radius: 10px 20px;}
+  .button{text-decoration:none; text-align:center;
+    float: right;
+   padding:10px 50px;
+   border:ridge 2px #000000;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius: 4px;
+   font:20px "COMIC SANS MS" serif;
+   font-weight:bold;
+   color:#000000;
+   background-color:#e4ebed;
+   background-image: -moz-linear-gradient(top, #e4ebed 0%, #657073 100%);
+   background-image: -webkit-linear-gradient(top, #e4ebed 0%, #657073 100%);
+   background-image: -o-linear-gradient(top, #e4ebed 0%, #657073 100%);
+   background-image: -ms-linear-gradient(top, #e4ebed 0% ,#657073 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#657073', endColorstr='#657073',GradientType=0 );
+   background-image: linear-gradient(top, #e4ebed 0% ,#657073 100%);
+   -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+   -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+   box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+     -webkit-transition: color 0s linear;
+   -moz-transition:  color 0s linear;
+   -o-transition:  color 0s linear;
+   transition:  color 0s linear;}
+   .button:hover{
+   padding:10px 50px;
+   border:ridge 2px #F0E68C;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius: 4px;
+   font:20px "COMIC SANS MS" serif;
+   font-weight:bold;
+   color:#F0E68C;
+   background-color:#e4ebed;
+   background-image: -moz-linear-gradient(top, #e4ebed 0%, #657073 100%);
+   background-image: -webkit-linear-gradient(top, #e4ebed 0%, #657073 100%);
+   background-image: -o-linear-gradient(top, #e4ebed 0%, #657073 100%);
+   background-image: -ms-linear-gradient(top, #e4ebed 0% ,#657073 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#657073', endColorstr='#657073',GradientType=0 );
+   background-image: linear-gradient(top, #e4ebed 0% ,#657073 100%);
+   -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+   -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+   box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
 
 .man {border-radius: 10px 20px; margin: auto;
   width:65%;height: 100%;text-align:center; font-stretch: ultra-condensed;
   font-variant: small-caps; font-size:45; border-bottom: 4px ridge #8B4513;
-border-top: 4px ridge #8B4513;background-image: url(123.png)}
+border-top: 4px ridge #8B4513;background-image: url(1234.jpg)}
 
 .gn {text-align: center; padding-top: 2%; font-size: 100pt}
 
@@ -40,3 +82,11 @@ border-top: 4px ridge #8B4513;background-image: url(123.png)}
 .tr {height: 30%}
 
 .flight {height: 17%}
+
+.nman {border-bottom: 4px ridge #8B4513; width: 50%;
+margin: auto;}
+
+.tman {color: black; font-size: 15pt}
+
+.gnman {border-radius: 10px 20px; margin: auto; border-top: 4px ridge #8B4513;
+text-align:center;}
