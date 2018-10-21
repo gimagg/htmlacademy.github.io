@@ -45,5 +45,10 @@ function a2_ingener() {
 function comant() {
     var comand=medic+mahani+ycheni+ingener;
     //alert(comand)
-    $('#comand').text(comand);
+    if (12-comand>=0) {
+    $('#lll').text(12-comand);
+  }
+  else {
+    $('#lll').text('error;')
+  }
 }

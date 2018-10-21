@@ -3,7 +3,7 @@
 // $('#maney').text(maney);
 //} );
 function plane() {
-  var plane = '{"name": "Самолет №1", "time": "2", "capacity" : "12", "cost":"160"}';
+  var plane = '{"name": "Самолет №1", "time": "2", "capacity" : "12", "cost":"165"}';
    plane = JSON.parse(plane);
    $('#re1_tupe').text(plane.name);
    $('#re1_cost').text(plane.cost);
@@ -15,7 +15,7 @@ function plane() {
      $('#maney').text(maney);
    } });
 
-   var plane2 = '{"name": "Самолет №2", "time": "2", "capacity" : "8", "cost":"120"}';
+   var plane2 = '{"name": "Самолет №2", "time": "2", "capacity" : "12", "cost":"190"}';
 
     plane2 = JSON.parse(plane2);
     $('#re2_tupe').text(plane2.name);
@@ -29,7 +29,7 @@ function plane() {
     } });
 
 
-    var plane3 = '{"name": "Самолет №3", "time": "3", "capacity" : "11", "cost":"200"}';
+    var plane3 = '{"name": "Самолет №3", "time": "3", "capacity" : "12", "cost":"210"}';
 
      plane3 = JSON.parse(plane3);
      $('#re3_tupe').text(plane3.name);
@@ -45,7 +45,7 @@ function plane() {
 
  }
  function ship() {
-   var ship = '{"name": "Катер №1", "time": "7", "capacity" : "8", "cost":"160"}';
+   var ship = '{"name": "Катер №1", "time": "7", "capacity" : "12", "cost":"160"}';
     ship = JSON.parse(ship);
     $('#re1_tupe').text(ship.name);
     $('#re1_cost').text(ship.cost);
@@ -59,7 +59,7 @@ function plane() {
     } });
 
 
-    var ship2 = '{"name": "Катер №2", "time": "7", "capacity" : "9", "cost":"120"}';
+    var ship2 = '{"name": "Катер №2", "time": "7", "capacity" : "12", "cost":"100"}';
      ship2 = JSON.parse(ship2);
      $('#re2_tupe').text(ship2.name);
      $('#re2_cost').text(ship2.cost);
@@ -72,7 +72,7 @@ function plane() {
      } });
 
 
-     var ship3 = '{"name": "Катер №3", "time": "6", "capacity" : "8", "cost":"200"}';
+     var ship3 = '{"name": "Катер №3", "time": "6", "capacity" : "12", "cost":"200"}';
         ship3 = JSON.parse(ship3);
         $('#re3_tupe').text(ship3.name);
         $('#re3_cost').text(ship3.cost);
@@ -90,7 +90,7 @@ function plane() {
 //  helicopter = '{"name": "Вертолет №1", "time": "2", "capacity" : "6", "cost":"170"}';
 //  helicopter3 = '{"name": "Вертолет №3", "time": "3", "capacity" : "5", "cost":"200"}';
   function helicopter() {
-    var helicopter = '{"name": "Вертолет №1", "time": "2", "capacity" : "6", "cost":"160"}';
+    var helicopter = '{"name": "Вертолет №1", "time": "2", "capacity" : "12", "cost":"140"}';
     helicopter = JSON.parse(helicopter);
      $('#re1_tupe').text(helicopter.name);
      $('#re1_cost').text(helicopter.cost);
@@ -103,7 +103,7 @@ function plane() {
      } });
 
 
-     var helicopter2 = '{"name": "Вертолет №2", "time": "2", "capacity" : "5", "cost":"120"}';
+     var helicopter2 = '{"name": "Вертолет №2", "time": "2", "capacity" : "12", "cost":"129"}';
      helicopter2 = JSON.parse(helicopter2);
      $('#re2_tupe').text(helicopter2.name);
       $('#re2_cost').text(helicopter2.cost);
@@ -116,7 +116,7 @@ function plane() {
       } });
 
 
-      var helicopter3 = '{"name": "Вертолет №3", "time": "3", "capacity" : "5", "cost":"200"}';
+      var helicopter3 = '{"name": "Вертолет №3", "time": "3", "capacity" : "12", "cost":"200"}';
            helicopter3 = JSON.parse(helicopter3);
          $('#re3_tupe').text(helicopter3.name);
          $('#re3_cost').text(helicopter3.cost);
@@ -135,7 +135,7 @@ function plane() {
     //alert(this.value);
 })
   }
-  function economic()
+  function lll()
   {
-    $('#maney').text(maney);
+    $('#lll').text(maney);
   }
