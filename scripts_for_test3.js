@@ -45,7 +45,7 @@ function plane() {
 
  }
  function ship() {
-   var ship = '{"name": "Катер №1", "time": "7", "capacity" : "12", "cost":"160"}';
+   var ship = '{"name": "Катер №1", "time": "7", "capacity" : "12", "cost":"110"}';
     ship = JSON.parse(ship);
     $('#re1_tupe').text(ship.name);
     $('#re1_cost').text(ship.cost);
@@ -72,7 +72,7 @@ function plane() {
      } });
 
 
-     var ship3 = '{"name": "Катер №3", "time": "6", "capacity" : "12", "cost":"200"}';
+     var ship3 = '{"name": "Катер №3", "time": "6", "capacity" : "12", "cost":"150"}';
         ship3 = JSON.parse(ship3);
         $('#re3_tupe').text(ship3.name);
         $('#re3_cost').text(ship3.cost);
