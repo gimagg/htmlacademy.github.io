@@ -84,7 +84,7 @@ box-shadow: 2px 2px 4px #888;}
 
 .od3 {height:51.1% }
 
-.od4 {height: 65.1%}
+.od4 {height: 43.2%}
 
 .od5 {height: 67%}
 
@@ -130,5 +130,7 @@ body {
 .guide {position: absolute;top:67.9%; left:3%;}
 
 .height {height:20%;}
+
+.imgclass {}
 
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
