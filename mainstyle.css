@@ -19,7 +19,7 @@
     background-image: url(playhover.png);
    }
 
-p.speech {
+h6.speech {
   font-size: 12pt;
   padding-left: 20px ;
   padding-right: 1px ;
@@ -39,7 +39,7 @@ p.speech {
 	-moz-box-shadow: 2px 2px 4px #888;
 	box-shadow: 2px 2px 4px #888;
 }
-p.speech:before {
+h6.speech:before {
 	content: ' ';
 	position: absolute;
 	width: 0;
@@ -49,7 +49,7 @@ p.speech:before {
 	border: 25px solid;
 	border-color: #666 transparent transparent #666;
 }
-p.speech:after {
+h6.speech:after {
 	content: ' ';
 	position: absolute;
 	width: 0;
@@ -62,11 +62,29 @@ p.speech:after {
 
 .od {height: 72%}
 
-.od2 {height:72.7%;}
+.od2 {background-image: url(nasamap.jpg);
+  height:68.7%;
+  font-size: 12pt;
+padding-left: 20px ;
+padding-right: 1px ;
+color: #000000;
+margin-left: auto;
+position: relative;
+width: 80%;
+text-align: left;
+line-height: 50px;
+background-color: #fff;
+border: 8px solid #666;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+-webkit-box-shadow: 2px 2px 4px #888;
+-moz-box-shadow: 2px 2px 4px #888;
+box-shadow: 2px 2px 4px #888;}
 
-.od3 {height:55.1% }
+.od3 {height:51.1% }
 
-.od4 {height: 67%}
+.od4 {height: 65.1%}
 
 .od5 {height: 67%}
 
@@ -108,5 +126,9 @@ body {
 .div {text-align: left;}
 
 .divh {height:40% ;}
+
+.guide {position: absolute;top:67.9%; left:3%;}
+
+.height {height:20%;}
 
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
