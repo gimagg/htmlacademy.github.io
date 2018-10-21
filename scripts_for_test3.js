@@ -1,4 +1,4 @@
- maney = 1500;
+ maney = 15000;
 //$('body').load(function{
 // $('#maney').text(maney);
 //} );
