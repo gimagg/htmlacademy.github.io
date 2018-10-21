@@ -4,7 +4,7 @@
 
 .fo {height: 19%}
 
-.doe {text-align: center;}
+.doe {text-align: center; padding-left: 15% ; padding-right: 15%}
 
 .fplay {width: 10%; height: 20%}
 
@@ -185,10 +185,14 @@ body {
   font-size: 20pt;
 }
 .hh {
-  border: 4px double #fff; /* Параметры границы */
-  background: #fff; /* Цвет фона */
-  padding: 10px; /* Поля вокруг текста */
-  border-radius: 8px
+  text-align: center;
+	border: 8px solid #666;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
 }
 #gg {
   text-align: right;
