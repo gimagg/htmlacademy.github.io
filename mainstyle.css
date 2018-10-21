@@ -157,7 +157,7 @@ box-shadow: 2px 2px 4px #888;}
 
 .od3 {height:51.1% }
 
-.od4 {height: 41.8%; text-align: center;}
+.od4 {height: 42.8%; text-align: center;}
 
 .od5 {height: 67%}
 
@@ -205,5 +205,35 @@ body {
 .divh {height:40% ;}
 
 .guide {position: absolute;top:67.9%; left:3%;}
+
+.button{text-decoration:none; text-align:center;
+ padding:5px 12px;
+ border:ridge 4px #000000;
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px;
+ border-radius: 4px;
+ font:14px "MS Serif", "New York", serif;
+ font-weight:bold;
+ color:#000000;
+ background:#ffffff;
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+  }.button:hover{
+ padding:5px 12px;
+ border:ridge 4px #000000;
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px;
+ border-radius: 4px;
+ font:13px "MS Serif", "New York", serif;
+ font-weight:bold;
+ color:#000000;
+ background:#ffffff;
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+ }
 
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
