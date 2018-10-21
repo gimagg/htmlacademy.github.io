@@ -42,3 +42,8 @@ function a2_ingener() {
     $('#ingener').text(ingener);
   }
 }
+function comant() {
+    var comand=medic+mahani+ycheni+ingener;
+    //alert(comand)
+    $('#comand').text(comand);
+}
