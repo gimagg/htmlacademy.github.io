@@ -145,9 +145,8 @@ h6.speech3:after {
 
 .od {height: 72%}
 
-.nasamap {width: auto; height: auto;}
-
-.od2 {background-image: url(nasamap.jpg);
+.od2 {background-size: auto;
+  background-image: url(nasamap.jpg);
   height:68%;
 padding-left: 20px ;
 padding-right: 1px ;
@@ -212,7 +211,5 @@ body {
 .divh {height:40% ;}
 
 .guide {position: absolute;top:67.9%; left:3%;}
-
-.imgclass {}
 
 body {background-color: black; color: white; font-family: 'COMIC SANS MS';}
