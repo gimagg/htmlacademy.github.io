@@ -145,7 +145,8 @@ h6.speech3:after {
 
 .od {height: 72%}
 
-.od2 {background-repeat: no-repeat;
+.od2 {background-size: auto;
+  background-repeat: no-repeat;
   background-image: url(nasamap.jpg);
   height:68%;
 padding-left: 20px ;
