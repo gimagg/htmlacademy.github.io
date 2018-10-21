@@ -4,7 +4,6 @@
 //} );
 function plane() {
   var plane = '{"name": "Самолет №1", "time": "2", "capacity" : "12", "cost":"160"}';
-
    plane = JSON.parse(plane);
    $('#re1_tupe').text(plane.name);
    $('#re1_cost').text(plane.cost);
