@@ -47,8 +47,11 @@ function plane() {
         $('#re3_time').text(ship3.time);
 
   }
+//  var helicopter2 = '{"name": "Вертолет №2 ", "time": "2", "capacity" : "5", "cost":"150"}';
+  helicopter = '{"name": "Вертолет №1", "time": "2", "capacity" : "6", "cost":"170"}';
+  helicopter3 = '{"name": "Вертолет №3", "time": "3", "capacity" : "5", "cost":"200"}';
   function helicopter() {
-    var helicopter = '{"name": "Вертолет №1", "time": "2", "capacity" : "6", "cost":"170"}';
+  //  var helicopter = '{"name": "Вертолет №1", "time": "2", "capacity" : "6", "cost":"170"}';
     helicopter = JSON.parse(helicopter);
      $('#re1_tupe').text(helicopter.name);
      $('#re1_cost').text(helicopter.cost);
@@ -61,7 +64,7 @@ function plane() {
       $('#re2_cost').text(helicopter2.cost);
       $('#re2_capacity').text(helicopter2.capacity);
       $('#re2_time').text(helicopter2.time);
-      var helicopter3 = '{"name": "Вертолет №3", "time": "3", "capacity" : "5", "cost":"200"}';
+//      var helicopter3 = '{"name": "Вертолет №3", "time": "3", "capacity" : "5", "cost":"200"}';
            helicopter3 = JSON.parse(helicopter3);
          $('#re3_tupe').text(helicopter3.name);
          $('#re3_cost').text(helicopter3.cost);
@@ -69,6 +72,12 @@ function plane() {
          $('#re3_time').text(helicopter3.time);
 
 }
-  function animation() {
-    $('#text_box').show("slow");
+  function an() {
+    $('input[type=radio]').change(function() {
+    //alert(this.value);
+})
+  }
+  function economic()
+  {
+    $('#maney').text(maney);
   }
