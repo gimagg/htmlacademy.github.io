@@ -6,19 +6,6 @@
 
 .doe {text-align: center; padding-left: 15% ; padding-right: 15%}
 
-.fplay {width: 10%; height: 20%}
-
-.fdivplay {text-align: center;}
-
-.ftplay {text-align: center;}
-
-.splay {width: 10%; height: 20%}
-
-.fplay:hover {
-  width: 10%; height: 20%;
-    background-image: url(playhover.png);
-   }
-
 h6.speech {
   font-size: 13pt;
   padding-left: 20px ;
@@ -168,7 +155,7 @@ box-shadow: 2px 2px 4px #888;}
 
 .od3 {height:51.1% }
 
-.od4 {height: 43.2%}
+.od4 {height: 38.5%}
 
 .od5 {height: 67%}
 
