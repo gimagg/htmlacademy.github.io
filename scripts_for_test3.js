@@ -1,4 +1,4 @@
- maney = 15000;
+ maney = 1500;
 //$('body').load(function{
 // $('#maney').text(maney);
 //} );
@@ -55,6 +55,7 @@ function plane() {
     if ("Катер №1"==$('#re1_tupe').text()) {
       maney=maney-160*8;
       $('#maney').text(maney);
+      JSON.stringify({ maney: maney  });
     } });
 
 
